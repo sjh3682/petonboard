@@ -1,0 +1,16 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+
+# 서명 키 (절대 공개 저장소에 올리지 않음)
+keystore.properties
+*.jks
+_sync/
+.kotlin

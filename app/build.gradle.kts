@@ -38,6 +38,9 @@ android {
         release {
             if (ksFile.exists()) signingConfig = signingConfigs.getByName("release")
             isMinifyEnabled = false
+            // 에뮬레이터(Pleos Connect)는 앱마켓 심사를 거치지 않은 앱의 화면을 주행 중에 막음.
+            // 심사·시연용 APK가 주행 중 화면을 보여 줄 수 있도록 debuggable로 빌드 (앱마켓 배포 때는 false)
+            isDebuggable = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }

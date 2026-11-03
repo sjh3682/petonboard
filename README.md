@@ -6,6 +6,7 @@
 
 - 대회: 현대자동차그룹 차량용 앱 개발 공모전 (Pleos Connect)
 - APK: [`apk/서지혜_펫온보드_release.apk`](apk/)
+- 시연 영상: [`demo/petonboard_demo.mp4`](demo/petonboard_demo.mp4) (1분 18초, Pleos Connect 에뮬레이터 화면 녹화. 짖음 감지는 녹음된 개 소리를 마이크 대신 넣은 테스트, 휴식 알림은 시간을 앞당긴 테스트입니다)
 
 ---
 
